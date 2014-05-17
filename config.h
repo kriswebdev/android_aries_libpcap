@@ -81,7 +81,7 @@
 #define HAVE_LINUX_IF_PACKET_H 1
 
 /* Define to 1 if you have the <linux/net_tstamp.h> header file. */
-#define HAVE_LINUX_NET_TSTAMP_H 1
+/* #define HAVE_LINUX_NET_TSTAMP_H 1 */
 
 /* if tp_vlan_tci exists */
 #define HAVE_LINUX_TPACKET_AUXDATA_TP_VLAN_TCI 1

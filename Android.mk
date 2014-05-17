@@ -16,7 +16,9 @@ LOCAL_SRC_FILES:=\
 
 LOCAL_CFLAGS:=-O2 -g
 LOCAL_CFLAGS+=-DHAVE_CONFIG_H -D_U_="__attribute__((unused))" -Dlinux -D__GLIBC__ -D_GNU_SOURCE
-
+LOCAL_C_INCLUDES	:= $(LOCAL_PATH)/include/
 LOCAL_MODULE:= libpcap
 
 include $(BUILD_STATIC_LIBRARY)
+
+
